@@ -5,7 +5,7 @@ import CONTENT from "../../content";
 
 const Slideshow = ({ slideIndex, handleClick }) => (
   <main className="slideshow" onClick={handleClick}>
-    <div dangerouslySetInnerHTML={{ __html: CONTENT[slideIndex] }} />
+    {CONTENT[slideIndex]}
   </main>
 );
 
