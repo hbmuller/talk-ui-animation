@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Navigation from "../Navigation";
-import Slides from "../Slides";
+import Slideshow from "../Slideshow";
 import { CONTENT_LENGTH } from "../../content";
 
 const KEY_LEFT = 37;
@@ -53,7 +53,7 @@ class Root extends Component {
           disablePrev={slideIndex === 0}
           disableNext={slideIndex === INDEX_LIMIT}
         />
-        <Slides
+        <Slideshow
           slideIndex={slideIndex}
           handleClick={() => this.handleNavigation(1)}
         />
