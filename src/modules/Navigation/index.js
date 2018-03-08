@@ -2,19 +2,19 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./style.css";
 
-const Navigation = ({ disablePrev, disableNext, handleChange }) => (
+const Navigation = ({ disablePrev, disableNext, handleNavigation }) => (
   <nav className="navigation">
-    <button disabled={disablePrev} onClick={() => handleChange(-1)}>
+    <button disabled={disablePrev} onClick={() => handleNavigation(-1)}>
       Prev
     </button>
-    <button disabled={disableNext} onClick={() => handleChange(1)}>
+    <button disabled={disableNext} onClick={() => handleNavigation(1)}>
       Next
     </button>
   </nav>
 );
 
 Navigation.propTypes = {
-  handleChange: PropTypes.func.isRequired,
+  handleNavigation: PropTypes.func.isRequired,
   disablePrev: PropTypes.bool,
   disableNext: PropTypes.bool
 };
