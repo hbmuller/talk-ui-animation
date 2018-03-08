@@ -1,1 +1,4 @@
-.slideshow {}
+.slideshow {
+  flex: 1 1 100%;
+  position: relative;
+}

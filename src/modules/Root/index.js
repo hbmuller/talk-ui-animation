@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Navigation from "../Navigation";
 import Slideshow from "../Slideshow";
+import './style.css';
+
 import { CONTENT_LENGTH } from "../../content";
 
 const KEY_LEFT = 37;
