@@ -1,5 +1,17 @@
 .navigation {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 15px;
+  right: 20px;
+  z-index: 10;
+}
+
+.navigation button {
+    border: none;
+
+    width: 30px;
+    background-color: transparent;
+    color: #ffb57f;
+    font-size: 40px;
+    text-align: center;
+
 }

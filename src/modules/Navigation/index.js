@@ -5,10 +5,11 @@ import "./style.css";
 const Navigation = ({ disablePrev, disableNext, handleNavigation }) => (
   <nav className="navigation">
     <button disabled={disablePrev} onClick={() => handleNavigation(-1)}>
-      Prev
+    &lsaquo;
+
     </button>
     <button disabled={disableNext} onClick={() => handleNavigation(1)}>
-      Next
+      &rsaquo;
     </button>
   </nav>
 );
