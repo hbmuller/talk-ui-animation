@@ -1,3 +1,6 @@
-# intro
+# UI Animation for the Web
 
-test content
+<em>Yes, that's kind of a long name</em>
+
+---
+<small>[@hbmuller](https://github.com/hbmuller)<small>
