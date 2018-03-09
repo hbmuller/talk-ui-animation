@@ -21,6 +21,17 @@ import SLIDE_16 from "./pages/16-the-right-tool.md";
 import SLIDE_17 from "./pages/17-type-declarative.md";
 import SLIDE_18 from "./pages/18-type-imperative.md";
 import SLIDE_19 from "./pages/19-type-procedural.md";
+import SLIDE_20 from "./pages/20-js.md";
+import SLIDE_21 from "./pages/21-js-webgl.md";
+import SLIDE_22 from "./pages/22-css.md";
+import SLIDE_23 from "./pages/23-reflow.md";
+import SLIDE_24 from "./pages/24-transition.md";
+import SLIDE_25 from "./pages/25-responsive.md";
+import SLIDE_26 from "./pages/26-animation.md";
+import SLIDE_27 from "./pages/27-lines-ui.md";
+import SLIDE_28 from "./pages/28-wrap-up.md";
+import SLIDE_29 from "./pages/29-follow-up.md";
+import SLIDE_30 from "./pages/30-thanks.md";
 
 const CONTENT = [
   <Slide content={SLIDE_00} className="slide--title" />,
@@ -42,7 +53,18 @@ const CONTENT = [
   <Slide content={SLIDE_16} />,
   <Slide content={SLIDE_17} />,
   <Slide content={SLIDE_18} />,
-  <Slide content={SLIDE_19} />
+  <Slide content={SLIDE_19} />,
+  <Slide content={SLIDE_20} />,
+  <Slide content={SLIDE_21} />,
+  <Slide content={SLIDE_22} />,
+  <Slide content={SLIDE_23} />,
+  <Slide content={SLIDE_24} />,
+  <Slide content={SLIDE_25} />,
+  <Slide content={SLIDE_26} />,
+  <Slide content={SLIDE_27} />,
+  <Slide content={SLIDE_28} />,
+  <Slide content={SLIDE_29} />,
+  <Slide content={SLIDE_30} className="slide--title" />
 ];
 
 export const CONTENT_LENGTH = CONTENT.length;

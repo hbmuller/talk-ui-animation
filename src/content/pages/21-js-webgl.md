@@ -1,0 +1,2 @@
+<iframe class="fill-slide" scrolling='no' title='Chill the lion' src='//codepen.io/Yakudoo/embed/YXxmYR/?height=265&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Yakudoo/pen/YXxmYR/'>Chill the lion</a> by Karim Maaloul (<a href='https://codepen.io/Yakudoo'>@Yakudoo</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>

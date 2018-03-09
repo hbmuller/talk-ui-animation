@@ -4,7 +4,7 @@ _Once upon a time, some elders at Disney..._
 
 ![Illusion of Life](https://www.parkablogs.com/sites/default/files/images/illusion-of-life-1.jpg)
 
-* [12 principles](http://the12principles.tumblr.com/)
+* [12 principles](https://the12principles.tumblr.com/)
 * HODL!
   * Another context
   * Another time
